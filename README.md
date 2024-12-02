@@ -6,12 +6,7 @@ Welcome to **Sathypay**, a Smart Payment Solution for the Sathyabama University 
 
 ## Project Demo
 
-<video controls>
-  <source src="/public/demo-video.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-
-*Click on the image above to watch the project demonstration.*
+https://github.com/user-attachments/assets/5509328b-3ebd-4c0e-bcf8-3ee521a6fa50
 
 ---
 
