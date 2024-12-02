@@ -1,0 +1,101 @@
+.fullScreenContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #181818;
+  position: relative;
+  overflow: hidden;
+}
+
+.ticketContainer {
+  background-color: #282828;
+  color: #fff;
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  max-width: 400px;
+  width: 100%;
+  position: relative;
+  transition: transform 0.3s ease-in-out;
+}
+
+.ticketContainer:hover {
+  transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #ffcc00;
+}
+
+.orderId, .totalAmount, .stallId, .orderStatus, .paymentStatus {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.itemsTitle {
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.itemsList {
+  list-style-type: none;
+  padding: 0;
+  margin: 15px 0;
+}
+
+.itemsList li {
+  background-color: #383838;
+  padding: 10px;
+  margin-bottom: 8px;
+  border-radius: 8px;
+}
+
+.qrCode {
+  margin-top: 20px;
+  max-width: 150px;
+  max-height: 150px;
+  border: 2px solid #ffcc00;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  margin-left: auto; /* Center the QR code block */
+  margin-right: auto; /* Center the QR code block */
+}
+
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.downloadBtn, .goBackBtn {
+  background-color: #ffcc00;
+  color: #000;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.downloadBtn:hover, .goBackBtn:hover {
+  background-color: #ffd700;
+}
+
+/* Celebration Effect Canvas */
+.celebrationCanvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
